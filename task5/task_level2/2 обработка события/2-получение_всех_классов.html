@@ -22,8 +22,8 @@
         'use strict';
         document.querySelector('p').addEventListener('click', function(event) {
             console.log(event.target.classList);
-            event.target.classList.forEach(function(event){
-                console.log(event.target.classList.target)
+            event.target.classList.forEach(function(a,b,c){
+                console.log(a,b,c)
             })
 
         });
