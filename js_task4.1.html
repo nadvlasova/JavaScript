@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task1</title>
+</head>
+<body>
+<script>
+    'use strict';
+
+		function A(param1){
+			this.param1 = param1;
+		}
+
+		A.prototype.show = function() {
+			alert(this.param1);
+		};
+
+		let obj1 = new A('text1');
+		obj1.show();
+
+
+		// class A {
+		// 	constructor(param1) {
+		// 		this.param1 = param1;
+		// 	}
+
+		// 	show() {
+		// 		alert(this.param1);
+		// 	}
+		// }
+
+		// let obj1 = new A('text1');
+		// obj1.show();
+</script>
+</body>
+</html>
