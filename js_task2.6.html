@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task6</title>
+</head>
+<body>
+<script>
+  'use strict'
+  let questionSum = Number(prompt('Введите сумму, которую Вы готовы положить на счет: '));
+  let strQuestionSum = String(questionSum);
+  //let strLength = strQuestionSum.length;
+  let last = strQuestionSum.charAt(strQuestionSum.length -1);
+
+  switch (last) {
+    case '1':
+        alert('Ваша сумма в ' + questionSum + ' рубль успешно зачислена.');
+        break;
+    case '2':
+    case '3':
+    case '4':
+        alert('Ваша сумма в ' + questionSum + ' рубля успешно зачислена.');
+        break;
+    default:
+        alert('Ваша сумма в ' + questionSum + ' рублей успешно зачислена.');
+  }
+
+</script>
+</body>
+</html>

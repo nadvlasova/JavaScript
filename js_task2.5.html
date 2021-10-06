@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task5</title>
+</head>
+<body>
+<script>
+        'use strict'
+    let a = Number(prompt());
+    let b = Number(prompt());
+    let action = Number(prompt('Введите номер для действия: 1 - +, 2 - -, 3 - *, 4 - / '));
+
+    function calculator(a, b, action){
+
+    if (action == 1)
+        alert(a + b);
+
+    else if (action == 2)
+        alert(a - b);
+
+    else if (action == 3)
+        alert(a * b);
+
+    else if (action == 4)
+        alert(a / b);
+        }
+    calculator(a, b, action);
+</script>
+</body>
+</html>
