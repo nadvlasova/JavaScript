@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task4</title>
+</head>
+<body>
+<script>
+    'use strict'
+    // Сложение двух чисел
+    function getSum(a = Number(prompt('Введите первое слагаемое: ' )), b = Number(prompt('Введите второе слагаемое: ' ))){
+        return (a + b);
+    }
+    let resultGetSum = getSum()
+    alert('Сумма: ' + (resultGetSum))
+
+    function getSubtraction(a = Number(prompt('Введите уменьшаемое: ')), b = Number(prompt('Введите вычитаемое: '))){
+        return (a - b);
+    }
+    let resultGetSubtraction = getSubtraction()
+    alert('Разность: ' + resultGetSubtraction)
+
+    function getMultiplication(a = Number(prompt('Введите первый множитель: ')), b = Number(prompt('Введите второй множитель: '))){
+        return (a * b);
+    }
+    let resultGetMultiplication = getMultiplication()
+    alert('Произведение: ' + resultGetMultiplication)
+
+    function getDivision(a = Number(prompt('Введите делимое: ')), b = Number(prompt('Введите делитель: '))){
+        return (a / b);
+    }
+    let resultGetDivision = getDivision()
+    alert('Частное: ' + resultGetDivision)
+
+</script>
+</body>
+</html>
